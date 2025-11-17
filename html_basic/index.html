@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <meta charset="utf-8">
+    <title>Aya deh - Personal Portfolio</title>
 </head>
 <body>
+
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <h1>Aya deh</h1>
+        <p>Front-End Developer & Creative Thinker</p>
     </header>
 
-    <main>
-        <article>
-            <h1>Welcome to My Portfolio Homepage</h1>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-            <p>This is the first paragraph introducing the purpose of this webpage.</p>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello! I am Aya, a passionate front-end developer learning modern web technologies and building creative web projects.</p>
+    </section>
 
-            <h2>About This Page</h2>
-            <p>This page contains headings, paragraphs, and a clickable image.</p>
+    <section id="projects">
+        <h2>Projects</h2>
 
-            <h3>Details</h3>
-            <p>Here is another paragraph describing more information.</p>
-
-            <p>This final paragraph completes the four-paragraph requirement.</p>
-
-            <!-- Clickable Image -->
-            <a href="https://www.alxafrica.com" target="_blank">
-                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
-            </a>
-
-            <!-- TABLE ADDED HERE -->
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Country</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>John</td><td>25</td><td>USA</td></tr>
-                    <tr><td>Emily</td><td>28</td><td>Canada</td></tr>
-                    <tr><td>Michael</td><td>32</td><td>Australia</td></tr>
-                    <tr><td>Sophia</td><td>21</td><td>UK</td></tr>
-                </tbody>
-            </table>
-
+        <article class="project">
+            <h3>Weather App</h3>
+            <p>A real-time weather application built with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com" target="_blank">View Project</a>
         </article>
 
-        <aside>
-            <p>placeholder to add comment thread later</p>
-        </aside>
-    </main>
+        <article class="project">
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal portfolio showcasing my skills and work.</p>
+            <a href="https://github.com" target="_blank">View Project</a>
+        </article>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I enjoy coding, reading, and constantly learning new skills. My focus is on front-end development and building beautiful web experiences.</p>
+        <p>I also study psychology and love combining tech with human behavior.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p><a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+        <p><a href="https://github.com" target="_blank">GitHub</a></p>
+    </section>
 
     <footer>
-        <p>Made by Aya - <a href="https://github.com" target="_blank">here</a></p>
+        <p>&copy; 2024 Aya deh</p>
     </footer>
+
 </body>
 </html>
